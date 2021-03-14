@@ -89,10 +89,10 @@ export default {
   },
 
   purgeCSS: {
+    whitelist: ['arrow', 'fade', 'show'],
     whitelistPatterns: [
       /^[-_]*nuxt[-_]*/,
-      /^\.?fa-/,
-      /-fa\.?$/,
+      /(?:^\.?fa-)|(?:-fa\.?$)/,
       /^(?:b-tooltip|tooltip|bs-tooltip)-*/,
     ],
   },
