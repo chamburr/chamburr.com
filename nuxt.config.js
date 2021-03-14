@@ -34,6 +34,12 @@ export default {
     ],
   },
 
+  build: {
+    babel: {
+      compact: true,
+    },
+  },
+
   css: ['~/assets/css/styles.css'],
 
   generate: {
@@ -50,6 +56,7 @@ export default {
     '@nuxtjs/google-analytics',
     '@nuxtjs/pwa',
     'bootstrap-vue/nuxt',
+    'nuxt-purgecss',
   ],
 
   bootstrapVue: {
@@ -77,5 +84,13 @@ export default {
 
   googleAnalytics: {
     id: 'UA-129600306-6',
+  },
+
+  purgeCSS: {
+    whitelistPatterns: [
+      /^[-_]*nuxt[-_]*/,
+      /(^|\.)fa-/,
+      /-fa($|\.)/,
+    ],
   },
 }
