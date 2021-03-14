@@ -7,7 +7,7 @@
       {{ message }}
     </h2>
     <nuxt-link class="d-flex align-items-center mt-4 text-white" to="/">
-      <fa icon="arrow-left" />
+      <fa icon="arrow-left"/>
       <p class="ml-2 mb-0">
         Back to home
       </p>

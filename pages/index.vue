@@ -16,7 +16,7 @@
         :title="element.name"
         :aria-label="element.name"
       >
-        <fa :icon="element.icon" />
+        <fa :icon="element.icon"/>
       </a>
     </div>
   </div>
