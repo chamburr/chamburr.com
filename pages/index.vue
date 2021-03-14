@@ -23,13 +23,52 @@
 </template>
 
 <script>
-import socials from '~/assets/social.json'
-
 export default {
   data() {
     return {
-      socials
+      socials: [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/chamburr",
+          "icon": ["fab", "github"],
+        },
+        {
+          "name": "Keybase",
+          "url": "https://keybase.io/chamburr",
+          "icon": ["fab", "keybase"],
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/@CHamburr22",
+          "icon": ["fab", "twitter"],
+        },
+        {
+          "name": "Facebook",
+          "url": "https://facebook.com/chamburr22",
+          "icon": ["fab", "facebook"],
+        },
+        {
+          "name": "Instagram",
+          "url": "https://instagram.com/chamburr",
+          "icon": ["fab", "instagram"],
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com/in/chamburr",
+          "icon": ["fab", "linkedin"],
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/users/446290930723717120",
+          "icon": ["fab", "discord"],
+        },
+        {
+          "name": "Email",
+          "url": "mailto:hi@chamburr.xyz",
+          "icon": ["fas", "at"],
+        },
+      ],
     }
-  }
+  },
 }
 </script>
