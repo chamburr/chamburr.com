@@ -44,6 +44,7 @@ export default {
 
   generate: {
     crawler: false,
+    fallback: '404.html',
   },
 
   loading: {
