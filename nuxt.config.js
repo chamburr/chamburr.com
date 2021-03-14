@@ -50,7 +50,6 @@ export default {
     '@nuxtjs/google-analytics',
     '@nuxtjs/pwa',
     'bootstrap-vue/nuxt',
-    'nuxt-purgecss',
   ],
 
   bootstrapVue: {
