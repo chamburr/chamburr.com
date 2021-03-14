@@ -91,8 +91,9 @@ export default {
   purgeCSS: {
     whitelistPatterns: [
       /^[-_]*nuxt[-_]*/,
-      /(^|\.)fa-/,
-      /-fa($|\.)/,
+      /^\.?fa-/,
+      /-fa\.?$/,
+      /^(?:b-tooltip|tooltip|bs-tooltip)-*/,
     ],
   },
 }
