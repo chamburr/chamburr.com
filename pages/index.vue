@@ -67,6 +67,11 @@ export default {
           "url": "mailto:hi@chamburr.xyz",
           "icon": ["fas", "at"],
         },
+        {
+          "name": "RSS",
+          "url": "https://chamburr.xyz/blog/rss",
+          "icon": ["fas", "rss"],
+        },
       ],
     }
   },

@@ -71,6 +71,7 @@ export default {
       solid: [
         'faArrowLeft',
         'faAt',
+        'faRss',
       ],
       brands: [
         'faDiscord',
