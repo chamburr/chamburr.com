@@ -64,7 +64,7 @@ export default {
         },
         {
           "name": "Email",
-          "url": "mailto:hi@chamburr.xyz",
+          "url": "mailto:hi@chamburr.com",
           "icon": ["fas", "at"],
         },
         {
