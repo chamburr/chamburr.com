@@ -2,7 +2,7 @@
   "name": "chamburr.xyz",
   "version": "1.0.0",
   "description": "",
-  "author": "CHamburr <hi@chamburr.xyz>",
+  "author": "CHamburr <hi@chamburr.com>",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
