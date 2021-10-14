@@ -8,7 +8,7 @@
       <div class="d-flex">
         <a href="/" class="nav-link pl-0 pr-3">Home</a>
         <a href="/blog" target="_blank" class="nav-link px-3">Blog</a>
-        <a href="mailto:hi@chamburr.xyz" target="_blank" class="nav-link pl-3 pr-0">Contact</a>
+        <a href="mailto:hi@chamburr.com" target="_blank" class="nav-link pl-3 pr-0">Contact</a>
       </div>
     </div>
     <nuxt class="flex-grow-1"/>
