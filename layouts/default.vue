@@ -13,7 +13,7 @@
     </div>
     <nuxt class="flex-grow-1"/>
     <footer class="h5 text-center pt-2 pb-4 pb-lg-5">
-      Copyright © CHamburr 2021
+      Copyright © CHamburr 2022
     </footer>
   </div>
 </template>
