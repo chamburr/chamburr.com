@@ -69,7 +69,7 @@ export default {
         },
         {
           "name": "RSS",
-          "url": "https://chamburr.xyz/blog/rss",
+          "url": "https://blog.chamburr.com/rss",
           "icon": ["fas", "rss"],
         },
       ],
