@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column justify-content-center align-items-center py-5">
+  <div class="d-flex flex-column justify-content-center align-items-center py-5 px-4">
     <div class="d-flex flex-column align-items-center w-75 w-md-50 w-lg-25 w-xl-20">
       <img class="w-100" src="/icon.png" alt="CHamburr">
     </div>

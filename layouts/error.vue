@@ -1,9 +1,9 @@
 <template>
-  <div class="d-flex flex-column justify-content-center align-items-center py-5">
+  <div class="d-flex flex-column justify-content-center align-items-center py-5 px-4">
     <h1 class="display-1 text-white">
       {{ code }}
     </h1>
-    <h2 class="h1 mt-4">
+    <h2 class="h1 mt-4 text-center">
       {{ message }}
     </h2>
     <nuxt-link class="d-flex align-items-center mt-4 text-white" to="/">
