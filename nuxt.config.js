@@ -33,6 +33,9 @@ export default {
       {rel: 'manifest', href: '/site.webmanifest'},
       {rel: 'canonical', href: 'https://chamburr.com'},
     ],
+    script: [
+      {src: 'https://plausible.chamburr.xyz/js/script.js', defer: true, 'data-domain': 'chamburr.com'}
+    ]
   },
 
   build: {
@@ -83,10 +86,6 @@ export default {
         'faTwitter',
       ],
     },
-  },
-
-  googleAnalytics: {
-    id: 'UA-129600306-6',
   },
 
   purgeCSS: {
