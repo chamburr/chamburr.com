@@ -7,10 +7,8 @@
       {{ message }}
     </h2>
     <nuxt-link class="d-flex align-items-center mt-4 text-white" to="/">
-      <fa icon="arrow-left"/>
-      <p class="ml-2 mb-0">
-        Back to home
-      </p>
+      <fa icon="arrow-left" />
+      <p class="ml-2 mb-0">Back to home</p>
     </nuxt-link>
   </div>
 </template>
@@ -20,8 +18,8 @@ export default {
   props: {
     error: {
       type: Object,
-      default: null,
-    },
+      default: null
+    }
   },
   computed: {
     code() {
@@ -29,7 +27,7 @@ export default {
     },
     message() {
       return (this.error.message || 'An unknown error occurred') + '.'
-    },
-  },
+    }
+  }
 }
 </script>
