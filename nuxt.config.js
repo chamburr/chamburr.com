@@ -58,7 +58,6 @@ export default {
 
   buildModules: [
     '@nuxtjs/fontawesome',
-    '@nuxtjs/google-analytics',
     '@nuxtjs/pwa',
     'bootstrap-vue/nuxt',
     'nuxt-purgecss'
