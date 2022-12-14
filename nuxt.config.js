@@ -31,9 +31,6 @@ export default {
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#1e90ff' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'canonical', href: 'https://chamburr.com' }
-    ],
-    script: [
-      { src: 'https://plausible.chamburr.xyz/js/script.js', defer: true, 'data-domain': 'chamburr.com' }
     ]
   },
 
