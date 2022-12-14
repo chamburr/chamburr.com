@@ -12,19 +12,14 @@ COPY layouts ./layouts
 COPY pages ./pages
 COPY static ./static
 
-RUN yarn build
+RUN yarn generate
 
-FROM node:18-alpine
+FROM nginx:mainline-alpine
 
-WORKDIR /app
+WORKDIR /usr/share/nginx/html
 
-COPY package.json yarn.lock ./
+COPY --from=builder /build/dist ./dist
 
-RUN yarn --frozen-lockfile --prod
+EXPOSE 80
 
-COPY --from=builder /build/.nuxt ./.nuxt
-COPY --from=builder /build/nuxt.config.js ./
-
-EXPOSE 3000
-
-CMD ["yarn", "start"]
+CMD ["nginx" "-g" "daemon off;"]
