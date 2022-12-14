@@ -1,5 +1,7 @@
 FROM node:18-alpine AS builder
 
+ENV NODE_OPTIONS --openssl-legacy-provider
+
 WORKDIR /build
 
 COPY package.json yarn.lock ./
@@ -14,7 +16,7 @@ COPY static ./static
 
 RUN yarn generate
 
-FROM nginx:mainline-alpine
+FROM nginx:1.23-alpine
 
 WORKDIR /usr/share/nginx/html
 
