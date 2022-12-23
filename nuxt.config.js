@@ -76,7 +76,6 @@ export default {
         'faFacebook',
         'faGithub',
         'faInstagram',
-        'faKeybase',
         'faLinkedin',
         'faTwitter'
       ]

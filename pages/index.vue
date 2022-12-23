@@ -33,14 +33,9 @@ export default {
           icon: ['fab', 'github']
         },
         {
-          name: 'Keybase',
-          url: 'https://keybase.io/chamburr',
-          icon: ['fab', 'keybase']
-        },
-        {
-          name: 'Twitter',
-          url: 'https://twitter.com/@CHamburr22',
-          icon: ['fab', 'twitter']
+          name: 'LinkedIn',
+          url: 'https://linkedin.com/in/chamburr',
+          icon: ['fab', 'linkedin']
         },
         {
           name: 'Facebook',
@@ -53,9 +48,9 @@ export default {
           icon: ['fab', 'instagram']
         },
         {
-          name: 'LinkedIn',
-          url: 'https://linkedin.com/in/chamburr',
-          icon: ['fab', 'linkedin']
+          name: 'Twitter',
+          url: 'https://twitter.com/@CHamburr22',
+          icon: ['fab', 'twitter']
         },
         {
           name: 'Discord',
