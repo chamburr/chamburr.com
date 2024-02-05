@@ -12,6 +12,6 @@
       </div>
     </div>
     <nuxt class="flex-grow-1" />
-    <footer class="h5 text-center pt-2 pb-4 pb-lg-5">Copyright © 2022 CHamburr</footer>
+    <footer class="h5 text-center pt-2 pb-4 pb-lg-5">Copyright © 2024 CHamburr</footer>
   </div>
 </template>
