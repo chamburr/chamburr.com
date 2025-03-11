@@ -1,6 +1,6 @@
 FROM node:18-alpine AS builder
 
-ENV NODE_OPTIONS --openssl-legacy-provider
+ENV NODE_OPTIONS=--openssl-legacy-provider
 
 WORKDIR /build
 
