@@ -5,23 +5,23 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: 'CHamburr',
+    title: 'Han Cen',
     meta: [
       { hid: 'charset', charset: 'utf-8' },
       { hid: 'viewport', name: 'viewport', content: 'initial-scale=1.0' },
-      { hid: 'description', name: 'description', content: "CHamburr's personal website." },
+      { hid: 'description', name: 'description', content: "Han's personal website." },
       { hid: 'theme-color', name: 'theme-color', content: '#1e90ff' },
-      { hid: 'og:title', property: 'og:title', content: 'CHamburr' },
+      { hid: 'og:title', property: 'og:title', content: 'Han Cen' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://chamburr.com' },
       { hid: 'og:image', property: 'og:image', content: 'https://chamburr.com/icon.png' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'CHamburr' },
-      { hid: 'og:description', property: 'og:description', content: "CHamburr's personal website." },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Han Cen' },
+      { hid: 'og:description', property: 'og:description', content: "Han's personal website." },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
-      { hid: 'twitter:title', name: 'twitter:title', content: 'CHamburr' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Han Cen' },
       { hid: 'twitter:image', name: 'twitter:image', content: 'https://chamburr.com/icon.png' },
-      { hid: 'twitter:creator', name: 'twitter:creator', content: '@CHamburr22' },
-      { hid: 'twitter:description', name: 'twitter:description', content: "CHamburr's personal website." }
+      { hid: 'twitter:creator', name: 'twitter:creator', content: '@chamburr22' },
+      { hid: 'twitter:description', name: 'twitter:description', content: "Han's personal website." }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -68,16 +68,14 @@ export default {
     icons: {
       solid: [
         'faArrowLeft',
-        'faAt',
-        'faRss'
+        'faAt'
       ],
       brands: [
         'faDiscord',
-        'faFacebook',
         'faGithub',
         'faInstagram',
         'faLinkedin',
-        'faTwitter'
+        'faXTwitter'
       ]
     }
   },
