@@ -20,7 +20,7 @@ export default {
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'Han Cen' },
       { hid: 'twitter:image', name: 'twitter:image', content: 'https://chamburr.com/icon.png' },
-      { hid: 'twitter:creator', name: 'twitter:creator', content: '@chamburr22' },
+      { hid: 'twitter:creator', name: 'twitter:creator', content: '@chamburr01' },
       { hid: 'twitter:description', name: 'twitter:description', content: "Han's personal website." }
     ],
     link: [

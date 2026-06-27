@@ -44,7 +44,7 @@ export default {
         },
         {
           name: 'X',
-          url: 'https://x.com/chamburr22',
+          url: 'https://x.com/chamburr01',
           icon: ['fab', 'x-twitter']
         },
         {
