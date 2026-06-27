@@ -11,6 +11,6 @@
       </div>
     </div>
     <nuxt class="flex-grow-1" />
-    <footer class="h5 text-center pt-2 pb-4 pb-lg-5">Copyright © 2025 Han Cen</footer>
+    <footer class="h5 text-center pt-2 pb-4 pb-lg-5">Copyright © 2026 Han Cen</footer>
   </div>
 </template>
